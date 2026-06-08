@@ -1,0 +1,168 @@
+header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--pico-muted-border-color);
+  margin-bottom: 2rem;
+}
+
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  border-top: 1px solid var(--pico-muted-border-color);
+  color: var(--pico-muted-color);
+  text-align: center;
+}
+
+/* Homepage */
+.hero {
+  text-align: center;
+  padding: 3rem 0 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  color: var(--pico-muted-color);
+  font-size: 1.1rem;
+}
+
+.acts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.acts-grid article {
+  padding: 0;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.acts-grid article:hover {
+  transform: translateY(-4px);
+}
+
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card-link img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1rem 1.2rem 1.2rem;
+}
+
+.card-body h3 {
+  margin-bottom: 0.2rem;
+}
+
+.tour-name {
+  color: var(--pico-muted-color);
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+
+.tags {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.6rem;
+}
+
+.tags span {
+  border: 1px solid var(--pico-primary);
+  color: var(--pico-primary);
+  padding: 0.15rem 0.55rem;
+  border-radius: 2rem;
+  font-size: 0.75rem;
+}
+
+.fan-name {
+  font-size: 0.85rem;
+  color: var(--pico-muted-color);
+  margin-bottom: 0;
+}
+
+/* Detail page */
+.detail-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.detail-img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: var(--pico-border-radius);
+}
+
+.detail-meta h1 {
+  margin-bottom: 0.4rem;
+}
+
+.detail-meta .tour-name {
+  font-size: 1.1rem;
+  color: var(--pico-primary);
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2.5rem;
+}
+
+dt {
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--pico-muted-color);
+  margin-bottom: 0.1rem;
+}
+
+dd {
+  margin-bottom: 1rem;
+  margin-left: 0;
+}
+
+/* 404 page */
+.not-found {
+  text-align: center;
+  padding: 6rem 0;
+}
+
+.not-found h1 {
+  font-size: 6rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .detail-hero,
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+}
