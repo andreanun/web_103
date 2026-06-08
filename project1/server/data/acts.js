@@ -9,11 +9,13 @@ export const acts = [
     usCities: ["Los Angeles", "New York", "Newark", "Chicago", "Atlanta"],
     description:
       "Stray Kids dominated North American arenas with their DOMINÓ World Tour in 2025. Known for their self-produced music and explosive choreography, SKZ delivered a career-defining run of sold-out shows across the country.",
-    image: "https://picsum.photos/seed/straykids/600/400",
+    image:
+      "https://www.billboard.com/wp-content/uploads/2024/07/Stray-Kids-ATE-Press-cr-JYP-Entertainment-02-2024-billboard-1548.jpg?w=942&h=628&crop=1",
     fanName: "STAY",
     genre: "K-Pop / Hip-Hop",
     debutYear: 2018,
-    highlight: "Sold out multiple arena dates including stops at Madison Square Garden and SoFi Stadium.",
+    highlight:
+      "Sold out multiple arena dates including stops at Madison Square Garden and SoFi Stadium.",
   },
   {
     slug: "ateez",
@@ -25,11 +27,13 @@ export const acts = [
     usCities: ["Los Angeles", "New York", "Chicago", "Houston", "Dallas"],
     description:
       "ATEEZ brought their cinematic GOLDEN HOUR: Part 2 tour to the US in 2025, stunning fans known as ATINY with breathtaking choreography and immersive stage production. One of the most consistent touring acts in K-pop.",
-    image: "https://picsum.photos/seed/ateez2025/600/400",
+    image:
+      "https://thebiaslist.com/wp-content/uploads/2021/09/ateez-deja-vu.jpg?w=640",
     fanName: "ATINY",
     genre: "K-Pop / Performance",
     debutYear: 2018,
-    highlight: "Headlined arenas across 5 US cities with their record-breaking stage production.",
+    highlight:
+      "Headlined arenas across 5 US cities with their record-breaking stage production.",
   },
   {
     slug: "twice",
@@ -41,11 +45,13 @@ export const acts = [
     usCities: ["Los Angeles", "New York", "Chicago", "Dallas", "Seattle"],
     description:
       "TWICE has been one of the most reliable touring acts in K-pop, and their 2025 US run was no exception. The nine-member group captivated fans known as ONCE with their bright energy, tight choreography, and standout vocal performances.",
-    image: "https://picsum.photos/seed/twice2025/600/400",
+    image:
+      "https://twicetours.com/wp-content/webp-express/webp-images/uploads/2025/12/TWICE-Oakland.png.webp",
     fanName: "ONCE",
     genre: "K-Pop / Pop",
     debutYear: 2015,
-    highlight: "Performed across 5 US cities, cementing their place as K-pop's top girl group touring act.",
+    highlight:
+      "Performed across 5 US cities, cementing their place as K-pop's top girl group touring act.",
   },
   {
     slug: "aespa",
@@ -57,11 +63,13 @@ export const acts = [
     usCities: ["Los Angeles", "New York", "Chicago", "Miami"],
     description:
       "aespa's SYNK: PARALLEL LINE tour brought their futuristic, metaverse-inspired concept to life in stunning fashion. The four-member SM group dazzled fans known as MY with their unique blend of cyberpunk aesthetics and powerful stage presence.",
-    image: "https://picsum.photos/seed/aespa2025/600/400",
+    image:
+      "https://images.squarespace-cdn.com/content/v1/68e523d70f55e10baf8bbf7a/1759936407137-H41SV34B8LIE75M12VOW/aespa-header.png",
     fanName: "MY",
     genre: "K-Pop / Future Pop",
     debutYear: 2020,
-    highlight: "Debuted their full-scale world tour with groundbreaking visual production across 4 US cities.",
+    highlight:
+      "Debuted their full-scale world tour with groundbreaking visual production across 4 US cities.",
   },
   {
     slug: "txt",
@@ -73,7 +81,8 @@ export const acts = [
     usCities: ["Los Angeles", "New York", "Chicago", "Dallas", "San Francisco"],
     description:
       "TXT's ACT: PROMISE world tour captivated audiences across the US in 2025. The five-member HYBE group, known for emotional storytelling and genre-blending sound, delivered powerful performances that resonated deeply with their fanbase MOA.",
-    image: "https://picsum.photos/seed/txt2025/600/400",
+    image:
+      "https://i0.wp.com/kstationtv.com/wp-content/uploads/2026/01/TXT-1-1-e1767850022930.jpg?fit=1024%2C516&ssl=1",
     fanName: "MOA",
     genre: "K-Pop / Alternative",
     debutYear: 2019,
@@ -89,11 +98,13 @@ export const acts = [
     usCities: ["Los Angeles", "New York", "Chicago", "Atlanta"],
     description:
       "LE SSERAFIM brought their CRAZY World Tour to the US in 2025, delivering high-energy performances and showcasing serious growth as live performers. The five-member group pushed boundaries with bold choreography and an electrifying stage presence.",
-    image: "https://picsum.photos/seed/lesserafim2025/600/400",
+    image:
+      "https://0.soompi.io/wp-content/uploads/2025/10/31203202/LE-SSERAFIM-3.jpg",
     fanName: "FEARNOT",
     genre: "K-Pop / Dance-Pop",
     debutYear: 2022,
-    highlight: "Headlined their first major US arena tour, selling out every venue on the CRAZY World Tour.",
+    highlight:
+      "Headlined their first major US arena tour, selling out every venue on the CRAZY World Tour.",
   },
   {
     slug: "enhypen",
@@ -105,10 +116,11 @@ export const acts = [
     usCities: ["Los Angeles", "New York", "Newark", "Chicago", "Dallas"],
     description:
       "ENHYPEN's FATE PLUS World Tour took the US by storm in 2025. The seven-member group, known for their dark and dramatic concept, delivered electrifying performances night after night, leaving their fanbase ENGENE wanting more.",
-    image: "https://picsum.photos/seed/enhypen2025/600/400",
+    image: "https://wwd.com/wp-content/uploads/2023/10/Enhypen_0108.jpg",
     fanName: "ENGENE",
     genre: "K-Pop / Pop",
     debutYear: 2020,
-    highlight: "Completed a 5-city US leg to sold-out crowds on the FATE PLUS World Tour.",
+    highlight:
+      "Completed a 5-city US leg to sold-out crowds on the FATE PLUS World Tour.",
   },
 ];
