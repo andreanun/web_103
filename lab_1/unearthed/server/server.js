@@ -1,4 +1,5 @@
 import express from "express";
+import giftsRouter from "./routes/gifts.js";
 
 // Initialize the Express app
 const app = express();
@@ -8,6 +9,8 @@ app.use("/public", express.static("./public"));
 
 // middleware function to serve static files from the scripts directory.
 app.use("/scripts", express.static("./public/scripts"));
+
+app.use("/gifts", giftsRouter);
 
 // define a route for the root URL of server
 app.get("/", (req, res) => {
