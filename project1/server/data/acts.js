@@ -1,5 +1,6 @@
 export const acts = [
   {
+    id: 1,
     slug: "stray-kids",
     name: "Stray Kids",
     label: "JYP Entertainment",
@@ -18,6 +19,7 @@ export const acts = [
       "Sold out multiple arena dates including stops at Madison Square Garden and SoFi Stadium.",
   },
   {
+    id: 2,
     slug: "ateez",
     name: "ATEEZ",
     label: "KQ Entertainment",
@@ -36,6 +38,7 @@ export const acts = [
       "Headlined arenas across 5 US cities with their record-breaking stage production.",
   },
   {
+    id: 3,
     slug: "twice",
     name: "TWICE",
     label: "JYP Entertainment",
@@ -54,6 +57,7 @@ export const acts = [
       "Performed across 5 US cities, cementing their place as K-pop's top girl group touring act.",
   },
   {
+    id: 4,
     slug: "aespa",
     name: "aespa",
     label: "SM Entertainment",
@@ -72,6 +76,7 @@ export const acts = [
       "Debuted their full-scale world tour with groundbreaking visual production across 4 US cities.",
   },
   {
+    id: 5,
     slug: "txt",
     name: "TXT",
     label: "Big Hit Music / HYBE",
@@ -89,6 +94,7 @@ export const acts = [
     highlight: "Sold out 5 US cities on the ACT: PROMISE world tour.",
   },
   {
+    id: 6,
     slug: "le-sserafim",
     name: "LE SSERAFIM",
     label: "Source Music / HYBE",
@@ -107,6 +113,7 @@ export const acts = [
       "Headlined their first major US arena tour, selling out every venue on the CRAZY World Tour.",
   },
   {
+    id: 7,
     slug: "enhypen",
     name: "ENHYPEN",
     label: "Belift Lab / HYBE",

@@ -1,4 +1,5 @@
 import express from "express";
+import dotenv from "./config/dotenv.js";
 import path from "path";
 import { fileURLToPath } from "url";
 import actsRouter from "./routes/acts.js";
