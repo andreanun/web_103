@@ -1,25 +1,21 @@
 import { Router } from "express";
 import path from "path";
 import { fileURLToPath } from "url";
-import { acts } from "../data/acts.js";
+// import { acts } from "../data/acts.js";
+import ActsController from "../controllers/acts.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const router = Router();
 
-router.get("/api/acts", (req, res) => {
-  res.json(acts);
-});
+router.get("/api/acts", ActsController.getActs);
 
-router.get("/acts/:slug", (req, res) => {
-  const act = acts.find((a) => a.slug === req.params.slug);
-
-  if (!act) {
+router.get("/acts/:slug", ActsController.getActBySlug, (req, res) => {
+  if (!req.act) {
     return res
       .status(404)
       .sendFile(path.join(__dirname, "../../client/404.html"));
   }
-
-  res.send(renderDetail(act));
+  res.send(renderDetail(req.act));
 });
 
 function renderDetail(act) {

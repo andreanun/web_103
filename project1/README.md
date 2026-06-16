@@ -4,7 +4,7 @@ Submitted by: **Andrea Nunoo**
 
 About this web app: **A list-based web app showcasing the biggest K-pop acts that toured the US in 2025. Users can browse all acts on the homepage and click into each one for a detailed view including tour name, cities, fandom name, and more.**
 
-Time spent: **2** hours
+Time spent: **3** hours
 
 ## Required Features
 
@@ -32,12 +32,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-
-GIF created with Loom
-[Video Walkthrough](https://www.loom.com/share/74ab66012b8a42b9a62131ecea795323)
+[Video Walkthrough](https://www.loom.com/share/8e596ccc6b0b4df68febbd91b2485b31)
 
 ## Notes
 
