@@ -3,9 +3,12 @@ import dotenv from "./config/dotenv.js";
 import path from "path";
 import { fileURLToPath } from "url";
 import actsRouter from "./routes/acts.js";
+import cors from "cors";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const app = express();
+
+app.use(cors());
 
 // Serve all static files from the client directory
 app.use(express.static(path.join(__dirname, "../client")));
